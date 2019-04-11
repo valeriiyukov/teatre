@@ -1969,8 +1969,8 @@ h1, h2, h3, h4, h5 {
   background-position: center; }
 
 .team__poster-headline {
-  font-size: 72px;
-  margin-bottom: 108px;
+  font-size: 5.14285vw;
+  margin-bottom: 13.5vh;
   color: #fff; }
 
 .team__info {
@@ -2166,6 +2166,10 @@ h1, h2, h3, h4, h5 {
   .featured__1st .preview__img, .featured__1st .preview {
     width: 380px; } }
 
+@media only screen and (min-width: 993px) and (max-width: 1080px) {
+  .team__wrap {
+    margin-left: 20px; } }
+
 @media only screen and (max-width: 992px) {
   .main-header {
     padding: 0 60px; }
@@ -2226,6 +2230,26 @@ h1, h2, h3, h4, h5 {
             order: 1; }
   .news-section__headline {
     font-size: 96px; }
+  .dancers__headline {
+    margin-bottom: 85px;
+    font-size: 61px; }
+  .dancers {
+    padding-top: 87px; }
+  .dancers__dancer-photo {
+    width: 248px;
+    height: 248px; }
+  .dancers__dancers {
+    max-width: 536px;
+    padding-bottom: 0; }
+  .team__poster-headline {
+    margin-bottom: 10.625vh;
+    font-size: 72px; }
+  .history {
+    height: 100%;
+    padding: 14.375vh 0 15vh; }
+  .history__headline {
+    margin-bottom: 4.75vh;
+    font-size: 62px; }
   /**/ }
 
 @media only screen and (max-height: 950px) {
@@ -2506,6 +2530,9 @@ h1, h2, h3, h4, h5 {
             align-items: center; }
   .news-section__headline {
     font-size: 48px; }
+  .news-detail {
+    height: 100%;
+    padding: 110px 0 94px; }
   .news-detail__date {
     font-size: 48px; }
   .news-detail__wrap {
@@ -2514,6 +2541,41 @@ h1, h2, h3, h4, h5 {
     min-height: 655px; }
   .news-section__poster {
     padding-bottom: 63px; }
+  .dancers__dancers {
+    max-width: 300px; }
+  .dancers__dancer-photo {
+    width: 130px;
+    height: 130px; }
+  .dancers__headline {
+    margin-bottom: 53px;
+    font-size: 32px; }
+  .dancers__dancer {
+    max-width: 130px;
+    margin-bottom: 80px; }
+  .team__poster-headline {
+    margin-bottom: 14.260vh;
+    font-size: 36px; }
+  .team__headline {
+    margin-bottom: 14.0845vh;
+    font-size: 36px; }
+  .team__wrap {
+    max-width: 280px; }
+  .history {
+    padding: 13.75vh 0 12.5vh; }
+  .history__headline {
+    margin-bottom: 5.5vh;
+    font-size: 48px; }
+  .history__content {
+    max-width: 290px; }
+  .art-director__img {
+    width: 281px;
+    height: 281px;
+    margin-bottom: 5vh; }
+  .art-director__name {
+    margin-bottom: 2.5vh; }
+  .art-director__post {
+    max-width: 50%;
+    text-align: center; }
   /**/ }
 
 @media only screen and (max-width: 560px) {
